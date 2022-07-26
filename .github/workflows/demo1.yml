@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 jobs:
   Explore-Github-Actions:
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "this job is automatically triggered by a ${{ github.event_name }} event."
       - run: echo "this job is running on a ${{ runner.os }} server hosted by Github."
